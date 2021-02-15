@@ -12,6 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - run: composer install
       - name: Qodana - Code Inspection
         uses: JetBrains/qodana-action@v1.0-eap
         with:
@@ -21,7 +22,8 @@ jobs:
         working-directory: qodana
       - run: ls -l
         working-directory: docs
-      - run: |
+      - name: GitHub Pages
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add docs/
