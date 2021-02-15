@@ -37,7 +37,7 @@ jobs:
         if: steps.changes.outputs.count > 0
       - uses: actions/upload-artifact@v2
         with:
-          name: qodana jsons
+          name: result
           path: qodana
       - uses: actions/upload-artifact@v2
         with:
