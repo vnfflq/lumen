@@ -1,0 +1,13 @@
+name: Qodana
+
+on:
+  push:
+    branches: [ qodana ]
+  workflow_dispatch:
+
+jobs:
+  qodana:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
