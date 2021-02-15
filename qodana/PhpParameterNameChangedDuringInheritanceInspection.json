@@ -1,0 +1,44 @@
+{"problems":[
+{
+  "file": "file://$PROJECT_DIR$/app/Exceptions/Handler.php",
+  "line": 36,
+  "offset": 37,
+  "length": 10,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Parameter's name changed during inheritance",
+    "id": "PhpParameterNameChangedDuringInheritanceInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Exceptions/Handler.php"
+  },
+  "highlighted_element": "$exception",
+  "language": "PHP",
+  "description": "Parameter's name changed from 'e' to 'exception'"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Exceptions/Handler.php",
+  "line": 50,
+  "offset": 47,
+  "length": 10,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Parameter's name changed during inheritance",
+    "id": "PhpParameterNameChangedDuringInheritanceInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Exceptions/Handler.php"
+  },
+  "highlighted_element": "$exception",
+  "language": "PHP",
+  "description": "Parameter's name changed from 'e' to 'exception'"
+}
+]}

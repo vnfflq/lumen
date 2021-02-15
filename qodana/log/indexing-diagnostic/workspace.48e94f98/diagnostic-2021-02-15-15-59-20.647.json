@@ -1,0 +1,110 @@
+{
+  "appInfo" : {
+    "build" : "203.7568",
+    "buildDate" : "Wed, 10 Feb 2021 20:17:51 GMT",
+    "productCode" : "IJCA",
+    "generated" : "Mon, 15 Feb 2021 15:59:20 GMT",
+    "os" : "Linux 5.4.0-1039-azure",
+    "runtime" : "Amazon.com Inc. 11.0.10 11.0.10+9-LTS"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 5106565120,
+    "numberOfProcessors" : 2,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "workspace",
+    "numberOfFileProviders" : 10,
+    "totalNumberOfFiles" : 7140,
+    "totalNumberOfUpToDateFiles" : 7138,
+    "times" : {
+      "totalUpdatingTime" : "210 ms",
+      "indexingTime" : "4 ms",
+      "pushPropertiesTime" : "10 ms",
+      "updatingStart" : "Mon, 15 Feb 2021 15:59:20 GMT",
+      "updatingEnd" : "Mon, 15 Feb 2021 15:59:20 GMT",
+      "wasInterrupted" : false
+    },
+    "numberOfIndexingThreads" : 2,
+    "totalStatsPerFileType" : [ {
+      "fileType" : "JSON",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "100.0%",
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : "7.88 kB",
+      "indexingSpeed" : "3.25 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Module 'workspace'",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "7.88 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "TodoIndex",
+      "partOfTotalIndexingTime" : "42.9%",
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "7.88 kB",
+      "indexingSpeed" : "7.59 MB/s"
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : "25.9%",
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "7.88 kB",
+      "indexingSpeed" : "12.56 MB/s"
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : "19.6%",
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "7.88 kB",
+      "indexingSpeed" : "16.64 MB/s"
+    }, {
+      "indexId" : "json.file.root.values",
+      "partOfTotalIndexingTime" : "11.6%",
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "7.88 kB",
+      "indexingSpeed" : "27.96 MB/s"
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Module 'workspace'",
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : "4 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "JSON",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "7.88 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "100.0%"
+      } ],
+      "statsPerIndexer" : [ {
+        "indexId" : "TodoIndex",
+        "numberOfFiles" : 2,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "42.9%"
+      }, {
+        "indexId" : "IdIndex",
+        "numberOfFiles" : 2,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "25.9%"
+      }, {
+        "indexId" : "Trigram.Index",
+        "numberOfFiles" : 2,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "19.6%"
+      }, {
+        "indexId" : "json.file.root.values",
+        "numberOfFiles" : 2,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "11.6%"
+      } ],
+      "fastIndexers" : [ ]
+    } ]
+  }
+}

@@ -1,0 +1,233 @@
+{"problems":[
+{
+  "file": "file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php",
+  "line": 31,
+  "offset": 15,
+  "length": 17,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php"
+  },
+  "highlighted_element": "\\Illuminate\\Http\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Http/Middleware/ExampleMiddleware.php",
+  "line": 12,
+  "offset": 15,
+  "length": 17,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Http/Middleware/ExampleMiddleware.php"
+  },
+  "highlighted_element": "\\Illuminate\\Http\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php",
+  "line": 15,
+  "offset": 8,
+  "length": 12,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php"
+  },
+  "highlighted_element": "\\App\\Events\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php",
+  "line": 16,
+  "offset": 12,
+  "length": 15,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php"
+  },
+  "highlighted_element": "\\App\\Listeners\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Exceptions/Handler.php",
+  "line": 34,
+  "offset": 15,
+  "length": 1,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Exceptions/Handler.php"
+  },
+  "highlighted_element": "\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Exceptions/Handler.php",
+  "line": 44,
+  "offset": 15,
+  "length": 17,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Exceptions/Handler.php"
+  },
+  "highlighted_element": "\\Illuminate\\Http\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Exceptions/Handler.php",
+  "line": 46,
+  "offset": 15,
+  "length": 17,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Exceptions/Handler.php"
+  },
+  "highlighted_element": "\\Illuminate\\Http\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Exceptions/Handler.php",
+  "line": 46,
+  "offset": 41,
+  "length": 17,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Exceptions/Handler.php"
+  },
+  "highlighted_element": "\\Illuminate\\Http\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/tests/TestCase.php",
+  "line": 10,
+  "offset": 15,
+  "length": 15,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/tests/TestCase.php"
+  },
+  "highlighted_element": "\\Laravel\\Lumen\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/routes/web.php",
+  "line": 3,
+  "offset": 9,
+  "length": 23,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WEAK WARNING",
+    "attribute_key": "INFO_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/routes/web.php"
+  },
+  "highlighted_element": "\\Laravel\\Lumen\\Routing\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+},
+{
+  "file": "file://$PROJECT_DIR$/vendor/bin/carbon",
+  "line": 21,
+  "offset": 10,
+  "length": 12,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Fully qualified name usage",
+    "id": "PhpFullyQualifiedNameUsageInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/vendor/bin/carbon"
+  },
+  "highlighted_element": "\\Carbon\\Cli\\",
+  "language": "PHP",
+  "description": "Qualifier can be replaced with an import"
+}
+]}

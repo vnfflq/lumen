@@ -1,0 +1,23 @@
+{"problems":[
+{
+  "file": "file://$PROJECT_DIR$/bootstrap/app.php",
+  "line": 111,
+  "offset": 13,
+  "length": 7,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Unused parameter",
+    "id": "PhpUnusedParameterInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/bootstrap/app.php"
+  },
+  "highlighted_element": "$router",
+  "language": "PHP",
+  "description": "Unused parameter 'router'. The parameter's value is not used anywhere."
+}
+]}

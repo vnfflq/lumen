@@ -1,0 +1,107 @@
+{"problems":[
+{
+  "file": "file://$PROJECT_DIR$/app/Listeners/ExampleListener.php",
+  "line": 6,
+  "offset": 4,
+  "length": 38,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Unused import",
+    "id": "PhpUnusedAliasInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Listeners/ExampleListener.php"
+  },
+  "highlighted_element": "Illuminate\\Contracts\\Queue\\ShouldQueue",
+  "language": "PHP",
+  "description": "Import 'Illuminate\\Contracts\\Queue\\ShouldQueue' is never used"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Listeners/ExampleListener.php",
+  "line": 7,
+  "offset": 4,
+  "length": 35,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Unused import",
+    "id": "PhpUnusedAliasInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Listeners/ExampleListener.php"
+  },
+  "highlighted_element": "Illuminate\\Queue\\InteractsWithQueue",
+  "language": "PHP",
+  "description": "Import 'Illuminate\\Queue\\InteractsWithQueue' is never used"
+},
+{
+  "file": "file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php",
+  "line": 6,
+  "offset": 4,
+  "length": 31,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Unused import",
+    "id": "PhpUnusedAliasInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php"
+  },
+  "highlighted_element": "Illuminate\\Support\\Facades\\Gate",
+  "language": "PHP",
+  "description": "Import 'Illuminate\\Support\\Facades\\Gate' is never used"
+},
+{
+  "file": "file://$PROJECT_DIR$/tests/ExampleTest.php",
+  "line": 3,
+  "offset": 4,
+  "length": 40,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Unused import",
+    "id": "PhpUnusedAliasInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/tests/ExampleTest.php"
+  },
+  "highlighted_element": "Laravel\\Lumen\\Testing\\DatabaseMigrations",
+  "language": "PHP",
+  "description": "Import 'Laravel\\Lumen\\Testing\\DatabaseMigrations' is never used"
+},
+{
+  "file": "file://$PROJECT_DIR$/tests/ExampleTest.php",
+  "line": 4,
+  "offset": 4,
+  "length": 42,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Unused import",
+    "id": "PhpUnusedAliasInspection",
+    "severity": "WARNING",
+    "attribute_key": "NOT_USED_ELEMENT_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/tests/ExampleTest.php"
+  },
+  "highlighted_element": "Laravel\\Lumen\\Testing\\DatabaseTransactions",
+  "language": "PHP",
+  "description": "Import 'Laravel\\Lumen\\Testing\\DatabaseTransactions' is never used"
+}
+]}
