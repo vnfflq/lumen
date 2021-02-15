@@ -4,7 +4,7 @@ on:
   push:
     branches: [ qodana ]
     paths:
-      - .github/workflows/quodana.yml
+      - .github/workflows/qodana.yml
   workflow_dispatch:
 
 jobs:
