@@ -22,13 +22,19 @@ jobs:
         working-directory: qodana
       - run: ls -l
         working-directory: docs
+      - name: Count changes
+        id: changes
+        run: |
+          git add -N .
+          echo "::set-output name=count::$(git diff --name-only | wc -l)"
       - name: GitHub Pages
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add docs/
+          git add .
           git commit -m "Qodana report"
           git push
+        if: steps.changes.outputs.count > 0
       - uses: actions/upload-artifact@v2
         with:
           name: qodana jsons
