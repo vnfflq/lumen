@@ -30,8 +30,8 @@ jobs:
           git push
       - uses: actions/upload-artifact@v2
         with:
-          name: qodana.json
-          path: qodana/results-allProblems.json
+          name: qodana jsons
+          path: qodana
       - uses: actions/upload-artifact@v2
         with:
           name: report
