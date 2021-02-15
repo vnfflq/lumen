@@ -27,7 +27,7 @@ jobs:
         run: |
           git add -N .
           echo "::set-output name=count::$(git diff --name-only | wc -l)"
-      - name: GitHub Pages
+      - name: Deploy to GitHub Pages
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
