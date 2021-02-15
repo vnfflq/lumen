@@ -27,6 +27,7 @@ jobs:
         run: |
           git add -N docs
           echo "::set-output name=count::$(git diff --name-only | wc -l)"
+      - run: echo ${{ steps.changes.outputs.count }}
       - name: Deploy to GitHub Pages
         run: |
           git config user.name github-actions
