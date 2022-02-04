@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main
-      - 'releases/*'
+      - 'feature/*'
 
 jobs:
   qodana:
