@@ -14,5 +14,7 @@
 */
 
 $router->get('/', function () use ($router) {
+errorgogogo
+return
     return $router->app->version();
 });
