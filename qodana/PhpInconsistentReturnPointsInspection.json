@@ -1,0 +1,23 @@
+{"problems":[
+{
+  "file": "file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php",
+  "line": 37,
+  "offset": 8,
+  "length": 1,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Inconsistent return points",
+    "id": "PhpInconsistentReturnPointsInspection",
+    "severity": "WARNING",
+    "attribute_key": "WARNING_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php"
+  },
+  "highlighted_element": "}",
+  "language": "PHP",
+  "description": "Missing 'return' statement"
+}
+]}

@@ -1,0 +1,214 @@
+{
+  "appInfo" : {
+    "build" : "203.7568",
+    "buildDate" : "Wed, 10 Feb 2021 20:17:06 GMT",
+    "productCode" : "IJCA",
+    "generated" : "Mon, 15 Feb 2021 16:21:24 GMT",
+    "os" : "Linux 5.4.0-1039-azure",
+    "runtime" : "Amazon.com Inc. 11.0.10 11.0.10+9-LTS"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 5106565120,
+    "numberOfProcessors" : 2,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "workspace",
+    "numberOfFileProviders" : 10,
+    "totalNumberOfFiles" : 7171,
+    "totalNumberOfUpToDateFiles" : 1790,
+    "times" : {
+      "totalUpdatingTime" : "1 s 712 ms",
+      "indexingTime" : "1 s 148 ms",
+      "pushPropertiesTime" : "8 ms",
+      "updatingStart" : "Mon, 15 Feb 2021 16:21:22 GMT",
+      "updatingEnd" : "Mon, 15 Feb 2021 16:21:24 GMT",
+      "wasInterrupted" : false
+    },
+    "numberOfIndexingThreads" : 2,
+    "totalStatsPerFileType" : [ {
+      "fileType" : "Smarty",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 13,
+      "totalFilesSize" : "12.32 kB",
+      "indexingSpeed" : "0 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Synthetic library 'PHP'",
+        "numberOfFiles" : 13,
+        "totalFilesSize" : "12.32 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "PLAIN_TEXT",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "5.3%",
+      "totalNumberOfFiles" : 372,
+      "totalFilesSize" : "965.99 kB",
+      "indexingSpeed" : "0 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Synthetic library 'PHP'",
+        "numberOfFiles" : 372,
+        "totalFilesSize" : "965.99 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "CSS",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 9,
+      "totalFilesSize" : "192.11 kB",
+      "indexingSpeed" : "0 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Synthetic library 'PHP'",
+        "numberOfFiles" : 9,
+        "totalFilesSize" : "192.11 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "SVG",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 10,
+      "totalFilesSize" : "5.04 kB",
+      "indexingSpeed" : "0 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Synthetic library 'PHP'",
+        "numberOfFiles" : 10,
+        "totalFilesSize" : "5.04 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "XML",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 29,
+      "totalFilesSize" : "200.22 kB",
+      "indexingSpeed" : "0 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Synthetic library 'PHP'",
+        "numberOfFiles" : 29,
+        "totalFilesSize" : "200.22 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "JavaScript",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "1.4%",
+      "totalNumberOfFiles" : 8,
+      "totalFilesSize" : "555.83 kB",
+      "indexingSpeed" : "0 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Synthetic library 'PHP'",
+        "numberOfFiles" : 8,
+        "totalFilesSize" : "555.83 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "PHP",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "90.5%",
+      "totalNumberOfFiles" : 4825,
+      "totalFilesSize" : "25.39 MB",
+      "indexingSpeed" : "0 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Module 'workspace'",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "704 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      }, {
+        "providerName" : "Synthetic library 'PHP'",
+        "numberOfFiles" : 4823,
+        "totalFilesSize" : "25.39 MB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "JSON",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "1.6%",
+      "totalNumberOfFiles" : 115,
+      "totalFilesSize" : "404.63 kB",
+      "indexingSpeed" : "0 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Synthetic library 'PHP'",
+        "numberOfFiles" : 115,
+        "totalFilesSize" : "404.63 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Synthetic library 'PHP'",
+      "totalNumberOfFiles" : 5379,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 5379,
+      "totalIndexingTime" : "1 s 147 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "Smarty",
+        "numberOfFiles" : 13,
+        "totalFilesSize" : "12.32 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "PLAIN_TEXT",
+        "numberOfFiles" : 372,
+        "totalFilesSize" : "965.99 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "5.3%"
+      }, {
+        "fileType" : "CSS",
+        "numberOfFiles" : 9,
+        "totalFilesSize" : "192.11 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "SVG",
+        "numberOfFiles" : 10,
+        "totalFilesSize" : "5.04 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "XML",
+        "numberOfFiles" : 29,
+        "totalFilesSize" : "200.22 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "JavaScript",
+        "numberOfFiles" : 8,
+        "totalFilesSize" : "555.83 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "1.4%"
+      }, {
+        "fileType" : "PHP",
+        "numberOfFiles" : 4823,
+        "totalFilesSize" : "25.39 MB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "90.5%"
+      }, {
+        "fileType" : "JSON",
+        "numberOfFiles" : 115,
+        "totalFilesSize" : "404.63 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "1.6%"
+      } ],
+      "statsPerIndexer" : [ ],
+      "fastIndexers" : [ ]
+    }, {
+      "providerName" : "Module 'workspace'",
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 2,
+      "totalIndexingTime" : "< 1 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "PHP",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "704 B",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "100.0%"
+      } ],
+      "statsPerIndexer" : [ ],
+      "fastIndexers" : [ ]
+    } ]
+  }
+}

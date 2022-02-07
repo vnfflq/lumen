@@ -1,0 +1,38 @@
+{
+  "modules": [
+    {
+      "name": "workspace",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$",
+          "sourceFolders": [
+            {
+              "path": "file://$PROJECT_DIR$/database/seeders",
+              "type": "Source",
+              "packagePrefix": "Database\\Seeders\\"
+            },
+            {
+              "path": "file://$PROJECT_DIR$/database/factories",
+              "type": "Source",
+              "packagePrefix": "Database\\Factories\\"
+            },
+            {
+              "path": "file://$PROJECT_DIR$/app",
+              "type": "Source",
+              "packagePrefix": "App\\"
+            }
+          ]
+        }
+      ],
+      "orderEntries": [
+        {
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        }
+      ]
+    }
+  ]
+}

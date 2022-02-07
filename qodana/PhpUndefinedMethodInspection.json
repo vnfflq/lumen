@@ -1,0 +1,23 @@
+{"problems":[
+{
+  "file": "file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php",
+  "line": 35,
+  "offset": 29,
+  "length": 5,
+  "module": "workspace",
+  "package": "<default>",
+  "problem_class": {
+    "name": "Undefined method",
+    "id": "PhpUndefinedMethodInspection",
+    "severity": "WARNING",
+    "attribute_key": "WARNING_ATTRIBUTES"
+  },
+  "entry_point": {
+    "TYPE": "file",
+    "FQNAME": "file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php"
+  },
+  "highlighted_element": "where",
+  "language": "PHP",
+  "description": "Method 'where' is undefined"
+}
+]}
