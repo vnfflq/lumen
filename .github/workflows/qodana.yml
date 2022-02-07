@@ -17,7 +17,8 @@ jobs:
     env:
       GRAZIE_PLUGIN: https://plugins.jetbrains.com/plugin/download?rel=true&updateId=152587
     steps:
-      - uses: actions/checkout@v2
+      - name: CheckOut
+        uses: actions/checkout@v2
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v4.2.5
         with:
@@ -30,7 +31,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add docs
-          git commit -m "Qodana report"
+          git commit -m "Qodana report!!"
           git push
       - uses: actions/upload-artifact@v2
         with:
