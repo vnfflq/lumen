@@ -30,13 +30,11 @@ jobs:
           echo "::set-output name=count::$(git diff --name-only docs | wc -l)"
       - run: echo ${{ steps.changes.outputs.count }}
       - name: Deploy to GitHub Pages
-        run: |
-          git config vnfflq github-actions
-          git config vnfflq@gmail.com github-actions@github.com
-          git add docs
-          git commit -m "Qodana report"
-          git push
-        if: steps.changes.outputs.count > 0
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          destination_dir: ./
       - uses: actions/upload-artifact@v2
         with:
           name: result
