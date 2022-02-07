@@ -2,12 +2,11 @@ name: Qodana
 
 on:
   push:
-    branches: [ qodana ]
     paths:
       - .github/workflows/qodana.yml
   pull_request:
-    types: [ opened, synchronize ]
-    branches: [ qodana ]
+    tags:
+      - 'pr-test-*'
 
 jobs:
   qodana:
