@@ -12,8 +12,7 @@
 */
 
 $app = require __DIR__.'/../bootstrap/app.php';
-$aa
-return asdf;
+
 /*
 |--------------------------------------------------------------------------
 | Run The Application
