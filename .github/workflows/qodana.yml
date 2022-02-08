@@ -31,6 +31,13 @@ jobs:
           git add -N docs
           echo "::set-output name=count::$(git diff --name-only docs | wc -l)"
       - run: echo ${{ steps.changes.outputs.count }}
+      - name: 'Report Push'
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+          git add docs
+          git commit -m "Qodana report"
+          git push
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
